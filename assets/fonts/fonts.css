@@ -1,1 +1,10 @@
+/* 
+Fonts:
+    - Poppins
+    - Quicksand
+
+How to use the fonts:
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand:wght@500&display=swap');

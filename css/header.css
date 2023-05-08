@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    font-size: 99%;
 }
 
 a>img {
@@ -13,8 +12,8 @@ a>img {
 }
 
 .cart-icon>img {
-    width: 2em;
-    height: 1.7em;
+    width: 1.7em;
+    height: 1.6em;
 }
 
 header {
@@ -48,6 +47,8 @@ header {
 
 .text-navs-wrapper>a {
     color: #483434;
+    font-weight: 600;
+    font-size: 95%;
 }
 
 .bttn-navs-wrapper {
@@ -76,6 +77,8 @@ a {
 
 .contact-wrapper>a {
     color: #FFF3E4;
+    font-size: 95%;
+    font-weight: bold;
 }
 
 .cart-icon {
