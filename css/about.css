@@ -1,45 +1,117 @@
-.box-container {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a>img {
+    width: 2em;
+    height: 2em;
+}
+.return-wrapper>a {
     display: flex;
-    justify-content: space-between;
-    width: 600px;
-    margin: 0 auto;
+    text-decoration: none;
+    align-items: center;
+    color: #483434;
 }
-  
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: #f1f1f1;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transform-style: preserve-3d;
-    transform: rotateY(45deg);
+.return-container {
+    width: 15%;
+    margin: 2em 0 0 2em;
 }
-  
-.box:before, .box:after {
-    content: '';
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.2);
+
+
+.about-details {
+    display: flex;
 }
-  
-.box:before {
-    top: -10px;
-    left: -10px;
-    width: 100%;
-    height: 10px;
+
+
+::-webkit-scrollbar {
+  height: 8px;
 }
-  
-.box:after {
-    top: -10px;
-    left: -10px;
-    width: 10px;
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6e93f7;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4070f4;
+}
+
+.cards-container1 {
+  display: flex;
+  gap: 12px;
+  max-width: 400px;
+  width: 100%;
+  background: #4070f4;
+  border-radius: 12px;
+  padding: 30px;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  scroll-padding: 30px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+.cards-container1 .card {
+  display: flex;
+  flex: 0 0 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 12px;
+  background: #fff;
+  scroll-snap-align: start;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+.card .image {
+  height: 150px;
+  width: 150px;
+  padding: 4px;
+  background: #4070f4;
+  border-radius: 50%;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.image-logo img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
-  
-.box:nth-child(2) {
-    transform: rotateX(45deg) rotateY(45deg);
+
+.card h2 {
+  margin-top: 25px;
+  color: #333;
+  font-size: 22px;
+  font-weight: 600;
 }
-  
-.box:nth-child(3) {
-    transform: rotateX(45deg) rotateY(-45deg);
+
+#company-name {
+    font-size: 20px;
 }
-  
+
+.card p {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+}
+
+#company-tagline2 {
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+.card-img {
+    width: 3em;
+}
