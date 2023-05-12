@@ -1,0 +1,45 @@
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+}
+  
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transform: rotateY(45deg);
+}
+  
+.box:before, .box:after {
+    content: '';
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+  
+.box:before {
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 10px;
+}
+  
+.box:after {
+    top: -10px;
+    left: -10px;
+    width: 10px;
+    height: 100%;
+}
+  
+.box:nth-child(2) {
+    transform: rotateX(45deg) rotateY(45deg);
+}
+  
+.box:nth-child(3) {
+    transform: rotateX(45deg) rotateY(-45deg);
+}
+  
