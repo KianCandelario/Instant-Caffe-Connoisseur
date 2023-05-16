@@ -6,58 +6,72 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="icon" href="../assets/icons/message-communication-contact-svgrepo-com.svg">
+        <link rel="stylesheet" href="../css/contact.css">
         <title>Contact Us</title>
     </head>
     <body>
-        <div class="layout">
+        <main class="layout">
             <section class="title-area">
                 <div class="title">
                     <h1>CONTACT US</h1>
                 </div>
                 <div class="short-txt">
-                    <p>Have a question, comment, or feedback? We're here to assist you! Reach out to our friendly team and let's start a conversation today.</p>
+                    <p>Have a question, comment, or feedback? We're here to assist you! <br />
+                       Reach out to our friendly team and let's start a conversation today.</p>
                 </div>
             </section>
-            <section class="infos-area">
-                <div class="address">
-                    <img src="../assets/icons/address-svgrepo-com.svg" alt="Address icon">
-                    <h3>Address</h3>
-                    <p>335 Lansones Ext. NAPICO Manggahan 
-                        Pasig City, Philippines</p>
-                </div>
-                <div class="phone">
-                    <img src="../assets/icons/phone-incoming-svgrepo-com.svg" alt="Phone icon">
-                    <h3>Phone</h3>
-                    <p>+639939270536</p>
-                </div>
-                <div class="email">
-                    <img src="../assets/icons/email-svgrepo-com.svg" alt="Email icon">
-                    <h3>Email</h3>
-                    <p>instantcaffeconnoisseur1@gmail.com</p>
-                </div>
-            </section>
-            <section class="message-area">
-                <div class="message-area-container">
-                    <div class="message-wrapper">
-                        <form action="">
-                            <div class="message-txt">
-                                <h2>Send Message</h2>
-                            </div>
+            <section class="infos-message-container">
+                <section class="infos-area">
+                    <div class="address infos">
+                        <div class="icon">
+                            <img src="../assets/icons/address-svgrepo-com.svg" alt="Address icon">
+                        </div>
+                        <div class="details">
+                            <h3>Address</h3>
+                            <p>335 Lansones Ext. NAPICO Manggahan <br />
+                            Pasig City, Philippines</p>
+                        </div>
+                    </div>
+                    <div class="phone infos">
+                        <div class="icon">
+                            <img src="../assets/icons/phone-incoming-svgrepo-com.svg" alt="Phone icon">
+                        </div>
+                        <div class="details">
+                            <h3>Phone</h3>
+                            <p>+639939270536</p>
+                        </div>
+                    </div>
+                    <div class="email infos">
+                        <div class="icon">
+                            <img src="../assets/icons/email-svgrepo-com.svg" alt="Email icon">
+                        </div>
+                        <div class="details">
+                            <h3>Email</h3>
+                            <p>instantcaffeconnoisseur1@gmail.com</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="message-area">
+                    <div class="message-area-container">
+                        <div class="message-txt">
+                            <h2>Send Message</h2>
+                        </div>
+                        <form class="message-wrapper" action="">
                             <div class="inputs">
-                                <input type="text" placeholder="Full name">
-                                <input type="text" placeholder="Email">
-                                <textarea name="" id="" cols="35" rows="10" placeholder="Type your message..."></textarea>
-                                <input type="submit">
-                            </div>
-                            <div class="back">
-                                <a href="./home.html">
-                                    Go back to home page
-                                </a>
+                                <input class="text-input text" type="text" size="51" placeholder="Full name">
+                                <input class="text-input text" type="text" size="51" placeholder="Email">
+                                <textarea name="" id="text-area" cols="50" rows="7" placeholder="Type your message..."></textarea>
                             </div>
                         </form>
+                        <input type="submit">
+                        <div class="back">
+                            <a href="./home.html">
+                                Go back to home page
+                            </a>
+                        </div>
                     </div>
-                </div>
+                </section>
             </section>
-        </div>
+        </main>
     </body>
 </html>
