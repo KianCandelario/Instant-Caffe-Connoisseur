@@ -11,6 +11,17 @@ body {
     background-color: #fef8f1;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #FFF3E4;
+    -webkit-border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #EED6C4;
+    border-radius: 10px;
+}
+
 main {
     display: flex;
     width: 100%;
