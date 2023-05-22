@@ -13,11 +13,11 @@
 }
 
 .title-row {
-    margin: 1.5em 0 1.5em 0;
+  margin: 1.5em 0 1.5em 0;
 }
 
-.title-row>h1 {
-    font-size: 3em;
+.title-row > h1 {
+  font-size: 3em;
 }
 
 .image > img {
@@ -49,7 +49,7 @@
 }
 
 .row1 > .texts {
-    margin-right: 7em;
+  margin-right: 7em;
 }
 
 .row2 > .texts {
@@ -57,7 +57,7 @@
 }
 
 .texts > h1 {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .stacked-img {
@@ -77,5 +77,27 @@
   box-shadow: 21px 21px 42px #e6dbcd, -21px -21px 42px #fffffb;
 }
 .promo-vid > video {
-   border-radius: 1em;
+  border-radius: 1em;
+}
+
+.image:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
