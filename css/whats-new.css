@@ -12,6 +12,14 @@
   justify-content: space-between;
 }
 
+.title-row {
+    margin: 1.5em 0 1.5em 0;
+}
+
+.title-row>h1 {
+    font-size: 3em;
+}
+
 .image > img {
   width: 13rem;
   height: auto;
@@ -37,7 +45,7 @@
 }
 
 .row1 {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 .row1 > .texts {
@@ -46,6 +54,10 @@
 
 .row2 > .texts {
   margin-right: 9em;
+}
+
+.texts > h1 {
+    font-size: 2em;
 }
 
 .stacked-img {
