@@ -1,0 +1,29 @@
+.whats-new-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whats-new-wrapper {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image > img {
+  width: 15rem;
+  height: auto;
+}
+
+.row1,
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stacked-img {
+    display: flex;
+}
