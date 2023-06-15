@@ -1,0 +1,39 @@
+.icon>img {
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.footer-container {
+    background-color: #6B4F4F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 5em;
+}
+
+.footer-section>p, .footer-section>h3, .footer-bottom>p {
+    color: #FEF8F1;
+}
+
+.icon>img {
+    filter: invert(81%) brightness(123%) contrast(99%);
+}
+
+.fa-instagram {
+    margin: 0 1em;
+}
+
+.icon-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom {
+    background-color: #6B4F4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+}

@@ -11,6 +11,8 @@ body {
 }
 
 .layout {
+    background-image: url(../assets/images/background-pics/ContactUsPage.png);
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     display: flex;

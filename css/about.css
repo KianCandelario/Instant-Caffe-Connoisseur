@@ -12,6 +12,16 @@ body {
   background-color: #EED6C4;
 }
 
+main {
+  height: 100vh;
+  width: auto;
+}
+
+.wrap-about {
+  background-image: url(../assets/images/background-pics/AboutPage.png);
+  background-size: cover;
+}
+
 a>img {
     width: 2em;
     height: 2em;
@@ -23,8 +33,8 @@ a>img {
     color: #483434;
 }
 .return-container {
-    width: 15%;
-    margin: 2em 0 0 2em;
+    width: 17%;
+    padding: 2em 0 0 2em;
 }
 a {
   background-image: linear-gradient(
@@ -122,7 +132,7 @@ a:hover::before{
   transition: all .3s ease-in-out;
 }
 .description:hover {
-  scale: 1.03;
+  scale: 1.01;
   transition: scale .3s ease-in-out;
 }
 #title:hover {
@@ -130,7 +140,7 @@ a:hover::before{
   transition: scale .3s ease-in-out;
 }
 .cards-container1:hover {
-  scale: 1.03;
+  scale: 1.01;
   transition: scale .3s ease-in-out;
 }
 

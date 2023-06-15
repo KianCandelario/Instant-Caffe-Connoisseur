@@ -1,4 +1,11 @@
 .whats-new-container {
+  /*background-color: #FFF3E4;
+  opacity: 0.8;
+  background-image: radial-gradient(#483434 0.5px, transparent 0.5px), radial-gradient(#483434 0.5px, #FFF3E4 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0,10px 10px;*/
+  background-image: url(../assets/images/background-pics/WhatsNewPage.png);
+  background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -10,6 +17,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 3em 0 6em 0;
 }
 
 .title-row {
@@ -39,9 +47,9 @@
 
 .texts {
   padding: 3em;
-  border-radius: 30px;
-  background: #fff3e4;
-  box-shadow: 21px 21px 42px #e6dbcd, -21px -21px 42px #fffffb;
+  border-radius: 40px;
+  background: #FEF8F1;
+  box-shadow:  7px 7px 30px #6b6b6b;
 }
 
 .row1 {
@@ -66,18 +74,22 @@
   align-items: center;
   padding: 1em;
   border-radius: 30px;
-  background: #fff3e4;
-  box-shadow: 21px 21px 42px #e6dbcd, -21px -21px 42px #fffffb;
+  background: #FEF8F1;
+  box-shadow:  7px 7px 30px #6b6b6b;
 }
 
 .promo-vid {
   padding: 1em;
   border-radius: 30px;
-  background: #fff3e4;
-  box-shadow: 21px 21px 42px #e6dbcd, -21px -21px 42px #fffffb;
+  background: #FEF8F1;
+  box-shadow:  7px 7px 30px #6b6b6b;
 }
 .promo-vid > video {
   border-radius: 1em;
+}
+
+#whats-new {
+  padding: 5em;
 }
 
 .image:hover img {
