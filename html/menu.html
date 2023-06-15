@@ -7,98 +7,34 @@
 
         <link rel="icon" href="../assets/icons/coffee-cup-svgrepo1-com.svg">
         <link rel="stylesheet" href="../css/header.css">
-        <link rel="stylesheet" href="../css/products.css">
+        <link rel="stylesheet" href="../css/menu.css">
+        
         <title>Products</title>
     </head>
     <body>
-        <header>
-            <div class="header-wrapper">
-                <div class="logo">
-                    <a href="">
-                        <img src="../assets/images/logo/logo_svg.svg" alt="logo">
-                    </a>
+        <div class="container">
+            <header>
+                <h1>AVAILABLE COFFEES</h1>
+                <div class="shopping">
+                    <img src="../assets/icons/bag-alt-1-svgrepo-com.svg">
+                    <span class="quantity">0</span>
                 </div>
-                <div class="navs-container">
-                    <nav class="text-navs-wrapper">
-                        <a href="" class="home">HOME</a>
-                        <a href="./menu.html" class="menu">MENU</a>
-                        <a href="./home.html" class="new">WHAT'S NEW</a>
-                    </nav>
-                    <nav class="bttn-navs-wrapper">
-                        <span class="contact-wrapper">
-                            <a href="./contact.html" class="contact">CONTACT US</a>
-                        </span>
-                        <span class="cart">
-                            <a href="" class="cart-icon">
-                                <img src="../assets/icons/cart-svgrepo-com.svg" alt="cart">
-                            </a>
-                        </span>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <main class="layout">
-            <section class="product-intro-container">
-                <div class="product-intro-wrapper">
-                    <div class="product-txt">
-                        <h2 class="product-title">PRODUCTS</h2>
-                    </div>
-                    <div class="cold-coffee">
-                        <img src="" alt="">
-                    </div>
-                    <div class="hot-coffee">
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="products-container">
-                <div class="products-wrapper">
-                    <div class="product-slider">
-                        <div class="product-slide">
-                            <img src="" alt="">
-                            <div class="sizes">
-                                <img src="" alt="">
-                            </div>
-                            <div class="hot-cold-bttn">
-                                <button class="hot">
-                                    
-                                </button>
-                                <button class="cold">
+            </header>
+            
+            <div class="list"></div>
+        </div>
 
-                                </button>
-                            </div>
-                        </div>
-                        <div class="product-slide">
-                            <img src="" alt="">
-                            <div class="sizes">
-                                <img src="" alt="">
-                            </div>
-                            <div class="hot-cold-bttn">
-                                <button class="hot">
-    
-                                </button>
-                                <button class="cold">
-    
-                                </button>
-                            </div>
-                        </div>
-                        <div class="product-slide">
-                            <img src="" alt="">
-                            <div class="sizes">
-                                <img src="" alt="">
-                            </div>
-                            <div class="hot-cold-bttn">
-                                <button class="hot">
-    
-                                </button>
-                                <button class="cold">
-    
-                                </button>
-                            </div>
-                        </div>
-                </div>
-            </section>
-        </main>
-        <script src="../js/slider.js"></script>
+        <div class="card">
+            <h1>Your Cart</h1>
+            <ul class="listCard">
+            </ul>
+            <div class="checkOut">
+                <div class="total">0</div>
+                <div class="closeShopping">Close</div>
+            </div>
+        </div>
+
+        <a href="./home.html" id="backtohome">Back to Home</a>
+        <script src="../js/menu.js"></script>
     </body>
 </html>

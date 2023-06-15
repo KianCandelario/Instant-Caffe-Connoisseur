@@ -219,11 +219,27 @@ a:hover::before{
 }
 
 #company-tagline2 {
-    font-size: 15px;
-    font-style: italic;
-    font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 1em;
 }
-
+#FAQs {
+  font-size: 12px;
+  font-style: italic;
+  font-family: 'Quicksand', sans-serif;
+}
+.card>.faq-title {
+  text-align: center;
+}
+.card>.faq-details {
+  font-size: 1em;
+  text-align: left;
+}
+.faq-details>.extra {
+  font-style: italic;
+  font-size: .8em;
+}
 
 .card-img {
     width: 4em;
