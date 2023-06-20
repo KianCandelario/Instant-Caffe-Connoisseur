@@ -75,6 +75,8 @@ let products = [
         price: 100
     }
 ];
+
+// List of items in menu
 let listCards  = [];
 function initApp(){
     products.forEach((value, key) =>{
@@ -89,14 +91,18 @@ function initApp(){
     })
 }
 initApp();
+
+// Add to Cart Functionality
 function addToCard(key){
-    if(listCards[key] == null){
-        // copy product form list to list card
+    if(listCards[key] == null) {
+        // copy product form list to cart
         listCards[key] = JSON.parse(JSON.stringify(products[key]));
         listCards[key].quantity = 1;
     }
     reloadCard();
 }
+
+// Cart Items View
 function reloadCard(){
     listCard.innerHTML = '';
     let count = 0;
@@ -121,6 +127,8 @@ function reloadCard(){
     total.innerText = totalPrice.toLocaleString();
     quantity.innerText = count;
 }
+
+// Changing the quantity and the price relative to quantity
 function changeQuantity(key, quantity){
     if(quantity == 0){
         delete listCards[key];

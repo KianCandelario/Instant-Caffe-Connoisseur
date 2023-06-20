@@ -53,6 +53,10 @@ header > h1 {
   font-size: 3em;
 }
 
+.shopping>img:hover {
+  cursor: pointer;
+}
+
 .list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
